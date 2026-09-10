@@ -207,7 +207,7 @@ export default function SettingsScreen() {
           inputMode="url"
           returnKeyType="next"
           onSubmitEditing={() => keyRef.current && keyRef.current.focus()}
-          placeholder="https://your-service.onrender.com"
+          placeholder="https://expensia-gs7p.onrender.com/health"
           placeholderTextColor={colors.muted}
         />
         <Text style={styles.hint}>
